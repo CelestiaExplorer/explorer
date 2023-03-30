@@ -555,7 +555,7 @@ export default class ChainFetch {
 
   // CoinMarketCap
   static async fetchCoinMarketCap(url) {
-    const host = 'https://price.ping.pub'
+    const host = 'https://price.tiaexplorer.com'
     return fetch(host + url).then(response => response.json())
   }
 

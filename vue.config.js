@@ -34,7 +34,7 @@ module.exports = {
               // const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)
 
               // npm package names are URL-safe, but some servers don't like @ symbols
-              return 'ping.pub.chunks'
+              return 'tiaexplorer.com.chunks'
             },
           },
         },

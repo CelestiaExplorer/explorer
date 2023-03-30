@@ -11,7 +11,7 @@ body {
 }
 .loading-logo {
   position: absolute;
-  left: calc(50% - 45px);
+  left: calc(50% - 160px);
   top: 40%;
 }
 .loading {

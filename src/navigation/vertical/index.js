@@ -19,47 +19,47 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.svg',
+      icon: '/logo.png',
     })
   }
-  chainMenus.push({ header: 'sponsors' })
-  chainMenus.push({
-    title: 'Becole',
-    href: 'https://becole.com',
-    logo: 'https://becole.com/static/logo/logo_becole.png',
-  })
-  chainMenus.push({
-    title: 'Osmosis',
-    href: 'https://app.osmosis.zone',
-    logo: 'https://ping.pub/logos/osmosis.jpg',
-  })
-  chainMenus.push({ header: 'LINKS' })
-  if (isTestnet()) {
-    chainMenus.push({
-      title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
-      icon: 'ChromeIcon',
-    })
-  } else {
-    chainMenus.push({
-      title: 'Testnet Explorer',
-      href: 'http://testnet.ping.pub',
-      icon: 'LifeBuoyIcon',
-    })
-  }
+  // chainMenus.push({ header: 'sponsors' })
+  // chainMenus.push({
+  //   title: 'Becole',
+  //   href: 'https://becole.com',
+  //   logo: 'https://becole.com/static/logo/logo_becole.png',
+  // })
+  // chainMenus.push({
+  //   title: 'Osmosis',
+  //   href: 'https://app.osmosis.zone',
+  //   logo: 'https://ping.pub/logos/osmosis.jpg',
+  // })
+  chainMenus.push({ header: 'links' })
+  // if (isTestnet()) {
+  //   chainMenus.push({
+  //     title: 'Mainnet Explorer',
+  //     href: 'https://ping.pub',
+  //     icon: 'ChromeIcon',
+  //   })
+  // } else {
+  //   chainMenus.push({
+  //     title: 'Testnet Explorer',
+  //     href: 'http://testnet.ping.pub',
+  //     icon: 'LifeBuoyIcon',
+  //   })
+  // }
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/BeaconChain',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'FAQ',
-    href: 'https://github.com/ping-pub/explorer/discussions',
+    href: 'https://github.com/CelestiaExplorer/explorer/discussions',
     icon: 'MessageSquareIcon',
   })
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    href: 'https://github.com/CelestiaExplorer/explorer',
     icon: 'GithubIcon',
   })
 
