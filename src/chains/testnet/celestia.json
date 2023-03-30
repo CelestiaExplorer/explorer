@@ -1,8 +1,8 @@
 {
   "chain_name": "celestia",
   "coingecko": "",
-  "api": ["https://api.celestia.chainno.de"],
-  "rpc": ["https://rpc.celestia.chainno.de"],
+  "api": ["https://api.celestia.chainno.de","https://api-blockspacerace.pops.one","https://api-1.celestia.nodes.guru","https://api-2.celestia.nodes.guru","https://celestia-testnet.api.kjnodes.com","https://celestia.waynewayner.de/api","https://api-blockspacerace.mzonder.com","https://api-t.celestia.nodestake.top","https://api-blockspacerace.ryabina.io","https://celest-archive.api.theamsolutions.info","https://blockspacerace-api.chainode.tech","https://api-blockspacerace.suntzu.pro","https://public.celestia.w3hitchhiker.com","https://api.celestia.stakewith.us","https://celestia-api.validatrium.club","https://celrace-lcd.easy2stake.com","http://rpc.celestia.blockscope.net"],
+  "rpc": ["https://rpc.celestia.chainno.de","https://rpc-blockspacerace.pops.one","https://rpc-1.celestia.nodes.guru","https://rpc-2.celestia.nodes.guru","https://celestia-testnet.rpc.kjnodes.com","https://celestia.rpc.waynewayner.de","https://rpc-blockspacerace.mzonder.com","https://rpc-t.celestia.nodestake.top","https://rpc-blockspacerace.ryabina.io","https://celest-archive.rpc.theamsolutions.info","https://blockspacerace-rpc.chainode.tech","https://rpc-blockspacerace.suntzu.pro","https://public.celestia.w3hitchhiker.com","https://rpc.celestia.stakewith.us","https://celestia-rpc.validatrium.club","https://celrace-rpc.easy2stake.com","http://rpc.celestia.blockscope.net"],
   "snapshot_provider": "",
   "sdk_version": "0.46.7",
   "coin_type": "118",

@@ -94,9 +94,10 @@ module.exports = {
   },
   transpileDependencies: ['vue-echarts', 'resize-detector'],
   devServer: {
+    allowedHosts: "all",
     proxy: {
       '/api': {
-        target: 'https://cosmos.api.ping.pub/',
+        target: 'https://api.celestia.chainno.de',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '',
