@@ -16,7 +16,7 @@
         <span
           v-if="uptime.length===0"
           class="text-danger"
-        > {{$t(uptimeMyChainBlocks.not_active)}}</span>
+        > {{$t('uptimeMyChainBlocks.not_active')}}</span>
         <b-col
           v-for="(x,index) in uptime"
           :key="index"
