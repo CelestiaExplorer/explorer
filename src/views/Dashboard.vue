@@ -414,7 +414,7 @@
                 :key="item.validator_address"
               >
                 <b-col cols="12">
-                  <span class="font-weight-bolder">From: <router-link :to="`../staking/${item.validator_address}`">{{ item.validator_address }}</router-link></span>
+                  <span class="font-weight-bolder">From: <router-link :to="`/${chain}/staking/${item.validator_address}`">{{ item.validator_address }}</router-link></span>
                 </b-col>
                 <b-col cols="12">
                   <b-table
